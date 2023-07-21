@@ -40,7 +40,7 @@ try:
 except ImportError:
     log.warning(
         "The example_kubernetes_executor example DAG requires the kubernetes provider."
-        " Please install it with: pip install apache-airflow[cncf.kubernetes]"
+        " Please install it with: pip install apache-airflow-providers-cncf-kubernetes"
     )
     k8s = None
 
